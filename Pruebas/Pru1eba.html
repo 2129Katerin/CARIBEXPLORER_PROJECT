@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8"> 
+        <title> Mi primer página ejemplo HTML5 </title> <!-- Título pestaña  -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!-- Tipos de títulos  -->
+        <h1> Título de nivel 1</h1>
+        <h2> Título de nivel 2</h2>
+        <h3> Título de nivel 3</h3>
+        <h4> Título de nivel 4</h4>
+        <h5> Título de nivel 5</h5>
+        <h6> Título de nivel 6</h6>
+
+        <!-- Cabecera -->
+        <header> 
+           <h1> Este sería mi cabecera </h1> 
+           <!-- Elementos de navegación  -->
+           <nav> 
+                <!-- Lista con puntos de marcadores  -->
+                <ul>
+                    <li> Elemento 1 </li>
+                    <li> Elemento 2 </li>
+                    <li> Elemento 3 </li>
+                    <!-- Elemento con ayuda (más info) -->
+                    <li> <a href="#" title="Ayuda"> Elemento 4</a> </li>
+                                     <!-- Info del enlace  -->
+                    <li> <a href="https://www.utb.edu.co" title="Página de la UTB"> Página de la UTB</a> </li>
+                         <!-- Redirecciona a otra página  -->
+                    <li> 
+                        <a href="https://aulatech.utb.edu.co" title="Ingresa a la Web del curso"> Web del curso </a> 
+                    </li>
+                </ul>
+                 <!-- Lista con números de marcadores  -->
+                <ol>
+                    <li> Elemento 1 </li>
+                    <li> Elemento 2 </li>
+                    <li> Elemento 3 </li>
+                </ol>
+           </nav>
+        </header>
+        
+        <!-- Página principal  -->
+        <main>
+            <!-- Contenido principal  -->
+            <article>
+                    <hr> <!-- Línea en la página - División -->
+                    <h2> Confusión para Calcular Presupuesto Total del Viaje </h2>
+                    <p> <strong> Problema: </strong> <br> Los viajeros suelen tener dificultades para calcular el costo total de un viaje, debido a los gastos ocultos o fluctuaciones en precios de servicios y actividades. </p> <!-- Adición de contenido principal  -->
+                    <p> <strong> Solución Web: </strong> <br> Una calculadora de presupuesto de viaje que permita a los usuarios ingresar el destino, la duración del viaje y su estilo de viaje, ofreciendo estimaciones de gastos diarios, precios de actividades y alojamientos, y otros costos posibles. </p>
+                    <!-- strong: comando para negrilla -->
+                    <!-- <br> salto de línea intencional -->
+                    <blockquote> <!-- Anotaciones -->
+                    <p>"Éste es un bloque de texto citado"</p>
+                            <ol>
+                                <li> Elemento 1 </li>
+                                <li> Elemento 2 </li>
+                                <li> Elemento 3 </li>
+                            </ol> 
+                    </blockquote>
+                    <br> Nueva línea </br>
+            </article>
+        </main>
+        
+        <section> <!-- Agregar una sección -->
+            <h2>Sección 1</h2>
+            <p>
+                Contenido de la sección 1.
+                <span>Aqui sigue el contenido, pero con otro estilo.</span>
+                <!-- <span> agregar salto de línea con hojas de estilo, se agrega una clase  -->
+            </p>
+            <pre> var numero = 5; </pre> <!-- Texto preformateado -->
+
+           <table>
+                <caption><strong>Tabla de ejemplo</strong></caption>
+                <thead>
+                        <th> Encabezado 1</th> <!--Etiqueta encabezado "Table Head" -->
+                        <th> Encabezado 2</th>
+                        <th> Encabezado 3</th>
+                </thead>
+                <body>
+                    <tr> <!--Etiqueta Filas "Table Row" -->
+                        <td>Fila 1 , Columna 1</td> <!--Etiqueta datos tabla "Table Data" -->
+                        <td>Fila 1 , Columna 2</td>
+                        <td>Fila 1 , Columna 3</td>
+                    </tr>
+                    <tr>
+                        <td>Fila 2 , Columna 1</td>
+                        <td>Fila 2 , Columna 2</td>
+                        <td>Fila 2 , Columna 3</td>
+                    </tr>
+                    <tr>
+                        <td>Fila 3 , Columna 1</td>
+                        <td>Fila 3 , Columna 2</td>
+                        <td>Fila 3 , Columna 3</td>
+                    </tr>
+                </body>
+                <tfoot> <!-- Pie de tabla - subtotales -->
+                    <tr>
+                        <td>Pie 1</td>
+                        <td>Pie 2</td>
+                        <td>Pie 3</td>
+                    </tr>
+                </tfoot>
+           </table>
+        </section>
+
+        <Aside> <!-- Agregar una sección -->
+            <h2>Barra lateral</h2>
+            <p><em>Contenido </em> de la Barra lateral </p>
+            <!-- <em> funciona para hacer letra cursiva - enfasís -->
+            <h2>Imagen 1</h2>
+            <img src="Rosa.png" alt="Imagen de una Rosa"/> <!-- src, se relaciona con el nombre de la imagen, como se guardó -->
+            <!-- La imagén debe estar en la carpeta donde se está trabajando, mismo nivel -->
+            <!-- alt=, nos muestra un texto cuando no aparece la imagén en la página-->
+            <h2>Imagen 2</h2>
+            <img src="Rosa.png" width="500px"  alt="Imagen de una Rosa"/>  <!-- Imagén con escalas -->
+                                <!-- Ancho -->
+        </Aside>
+
+        <footer> <!-- Se interpreta como pie de página, pero no se ubica como el pie de página -->
+            <p>Contenido del Pie de página</p>
+        </footer>
+    </body>
+
+
+</html>

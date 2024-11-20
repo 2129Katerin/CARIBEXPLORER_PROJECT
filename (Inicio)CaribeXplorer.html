@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="es">
+
+  <!--HEAD-->
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> CaribeXplorer </title>
+    <link rel="icon" href="Img/CaribeXplorer2_logo.ico"> <!--Colocación de logo en pestaña-->
+    
+    <!--Referenciación de hojas de estilos a usar-->
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/> <!-- Libreria para iconos de redes sociales -->
+    
+    <!-- Referenciación de Google Fonts -->
+     <!-- Fuente Kanit-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Fuente Popins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+ 
+  <!--BODY-->
+
+  <body>
+
+    <!--Inicio Nav Bar -->
+    <header>
+      <section class="container-navbar">
+        <nav class="navbar container">
+            <a href="index.html" class="navbar__logo">
+              <img src="Img/CaribeXplorer2_logo.png" alt="CaribeXplorer">
+              <span>CaribeXplorer</span>
+            </a>
+            <div class="navbar__nav">
+              <ul class="nav__list">
+                <li class="nav__link">
+                  <a href="#"> Inicio </a>
+                </li>
+                <li class="nav__link">
+                  <a href="#"> Conócenos </a>
+                </li>
+                <li class="nav__link">
+                  <a href="#"> Servicios </a>
+                </li>
+                <li class="nav__link">
+                  <a href="#"> Saber más </a>
+                </li>
+              </ul>
+              <form action="" class="navbar__search">
+                  <a href="#" class="search__icon">
+                    <img src="Img/Busqueda.png" alt="boton busqueda">
+                  </a>
+                  
+                  <!-- idea para agregar barra de búqueda en el encabezado-->
+                  <!-- <div class="wrapper-with-ref"><div class="search-option suggest__searchOption__3834172512 suggest__searchOptionIsNotOpen__3834172512" style=""><div class="suggest__suggestWrapper__1983607109 suggest-wrapper suggest-wrapper--is-header"><div class="aui-form-element undefined" data-qa-ta="element-undefined"><svg class="suggest__loupeSearch__1983607109 suggest__isSuggestNotOpen__1983607109" color="white" width="24" height="24" style="color: white; width: 24px; height: 24px;"><use xlink:href="#loupe"></use></svg><svg class="
+                    suggest__loupeSearchClose__1983607109 
+                    suggest__loupeSearchCloseIsSuggestNotOpen__1983607109" color="white" width="24" height="24" style="color: white; width: 24px; height: 24px;"><use xlink:href="#loupe"></use></svg><div class="sc-gtLWhw iSrSq suggest__input__1983607109  suggest-input InputWrapper None" variant="none"><input variant="none" autocomplete="new-password" type="text" class="sc-egkSDF jgKARE Input None  " placeholder="¡Busca planes y Ahorra!" spellcheck="false" value=""></div><svg class="
+                    suggest__closeSearch__1983607109
+                    suggest__isSuggestNotOpen__1983607109" style="width: 20px; height: 20px;"><use xlink:href="#close"></use></svg></div></div></div></div>--->
+
+
+              </form>
+              <a href="#" class="button button-primary button-contacto"> Contactanos</a>
+              <button class="navbar__toogler-btn">
+                  <img src="Img/menu-icon.svg" alt="menú logo">
+              </button>
+              <div class="navbar__mobile-menu">
+                <ul class="nav__list-mobile">
+                  <li class="nav__link-mobile">
+                    <a href="#"> Inicio </a>
+                  </li>
+                  <li class="nav__link-mobile">
+                    <a href="#"> ¿Quiénes somos? </a>
+                  </li>
+                  <li class="nav__link-mobile">
+                    <a href="#"> Servicios </a>
+                  </li>
+                  <li class="nav__link-mobile">
+                    <a href="#"> Saber más </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Termina nav bar -->
+
+    <!--MAIN-->
+
+    <!-- Inicio Slider principal -->
+    <main>
+
+      <section class = "slider">
+        <div class="slider__container container">
+          <img src="Img/leftarrow.svg" class="slider__arrow" id="before">
+          <img src="Img/rightarrow.svg" class="slider__arrow" id="next">
+
+          <!-- Slider 1 -->
+          <section class="slider__body slider__body--show" data-id="1"> <!-- se quita el slider-body-shows a partir del segundo-->
+            <div class="slider__texts">
+              <h1 class="slider__title"><span> Turismo gastronómico</span></h1>  
+              <div class="botones">
+                <a href="#" class="btn-1"> Conoce más</a>
+                <!-- <a href="#" class="btn-1"> Ciudades</a>-->
+              </div>
+            </div>
+            <figure class="slider__picture">
+              <img src="Img/Cartagena.webp" class="slider__img">
+            </figure>
+          </section>
+
+          <!-- Slider 2 -->
+          <section class="slider__body" data-id="2"> <!-- se quita el slider-body-shows a partir del segundo-->
+            <div class="slider__texts">
+              <h2 class="slider__title"><span> Servicios ofrecidos</span></h2>  
+              <div class="botones">
+                <a href="#" class="btn-1"> Conoce más</a>
+                <!--<a href="#" class="btn-1"> Ciudades</a>-->
+              </div>
+            </div>
+            <figure class="slider__picture">
+              <img src="Img/comida costa.jpg" class="slider__img">
+            </figure>
+          </section>
+
+          <!-- Slider 3 -->
+          <section class="slider__body" data-id="3"> <!-- se quita el slider-body-shows a partir del segundo-->
+            <div class="slider__texts">
+              <h2 class="slider__title"><span> Tours por ciudades</span></h2>  
+              <div class="botones">
+                <a href="#" class="btn-1"> Conoce más</a>
+                <!--<a href="#" class="btn-1"> Ciudades</a>-->
+              </div>
+            </div>
+            <figure class="slider__picture">
+              <img src="Img/Costa caribe.jfif" class="slider__img">
+            </figure>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <section class="form__container">
+      <form class="form"action="/my-handling-form-page" method="post" >
+        <ul>
+          <li>
+           <label for="name">Nombre:</label>
+           <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+           <label for="mail">Correo electrónico:</label>
+           <input type="email" id="mail" name="user_mail" />
+          </li>
+          <li>
+           <label for="msg">Mensaje:</label>
+           <textarea id="msg" name="user_message"></textarea>
+          </li>
+          <li class="form-button">
+            <button type="submit">Envíar</button>
+          </li>
+        </ul>
+      </form>
+   </section>
+  
+   <!-- AGREGAR SECCIONES PARA COLOCAR INFORMACIÓN PARA CADA "CONOCER MÁS"-->
+
+     <!-- ¿Qué es el turismo gastronómico?
+    La OMT define el turismo gastronómico como “un tipo de actividad turística que se caracteriza 
+    porque el viajero experimente durante su viaje actividades y productos relacionados con la gastronomía del lugar. 
+    Además de las experiencias culinarias auténticas, tradicionales y/o innovadoras, el turismo gastronómico también 
+    puede incluir otro tipo de actividades, como visitar productores locales, participar en festivales gastronómicos 
+    o asistir a clases de cocina.”-->
+
+    <!--FOOTER-->
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer-row">
+          <!-- footer-link 1-->
+          <div class="footer-links">
+            <h4> Compañía</h4>
+            <ul>
+              <li><a href="#"> Nosotros</a></li>
+              <li><a href="#"> Nuestros servicios</a></li>
+              <li><a href="#"> Política de privacidad</a></li>
+              <li><a href="#"> Política de cookies</a></li>
+            </ul>
+          </div>
+          <!-- footer-link 2-->
+          <div class="footer-links">
+            <h4> Ayuda</h4>
+            <ul>
+              <li><a href="#"> Preguntas frecuentes</a></li>
+              <li><a href="#"> Condiciones de uso</a></li>
+              <li><a href="#"> Reservaciones</a></li>
+              <li><a href="#"> Pagos</a></li>
+            </ul>
+          </div>
+          <!-- footer-link 3-->
+          <div class="footer-links">
+            <h4> Empresa</h4>
+            <ul>
+              <li><a href="#"> Servicios</a></li>
+              <li><a href="#"> Reservaciones</a></li>
+              <li><a href="#"> Turismo</a></li>
+              <li><a href="#"> Ciudades</a></li>
+            </ul>
+          </div>
+          <!-- footer-link 4 Icónos redes sociales-->
+          <div class="footer-links">
+            <h4> Siguenos</h4>
+            <div class="social-link">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </footer>
+
+
+
+  
+
+    <!-- colocar la lectura de los documentos java al final del documento para que pueda encontrar los elementos-->
+    <script src="JavaS/App.js"></script>
+
+  </body>
+ 
+</html>
+

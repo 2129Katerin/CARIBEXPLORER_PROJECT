@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    ><head>
+        ><title> PRUEBA</title>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>Prueba </h1>
+        <h2>Subtitulo de prueba</h2>
+        <p>Esto es una prueba</p>
+        <p>Esto es el segúndo párrafo de prueba</p>
+        <script> // llamada a lenguaje JAVASCRIP en cualquier parte de la página
+            let nombre = "Katerin";
+            console.log ("Hola " + nombre); // + para concatenar
+            
+           let persona = { 
+                nombre:"pepe",
+                edad:50,
+                saludar: function () {
+                    console.log ("Hola, soy " + this.nombre + 
+                    " y tengo " + this.edad + " años");
+                }
+            }
+
+            persona.nombre = "juan";
+            persona.saludar ();
+
+            let numero1 = 5;
+            let booleano = true;
+
+            for (let i=0; i < numero1; i++) 
+            {
+                console.log (i);
+            }
+            while (booleano)
+            {
+                console.log("Hola");
+                booleano = false; 
+            }
+
+
+        </script>
+
+    </body>
+</html>
